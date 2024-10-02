@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+h1 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.section {
+    margin-bottom: 30px;
+}
+.section-title {
+    background: #0066cc;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.skill-list, .education-list, .experience-list, .project-list {
+    list-style-type: none;
+    padding: 0;
+}
+.skill-list li, .education-list li, .experience-list li, .project-list li {
+    margin-bottom: 10px;
+}
+.language-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.language-list li {
+    margin-right: 20px;
+}
+.project-title a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.project-title a:hover {
+    text-decoration: underline;
+}
+.experience-role {
+    font-weight: bold;
+}
+.experience-duration {
+    font-style: italic;
+    color: #777;
+}
